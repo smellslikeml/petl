@@ -26,6 +26,7 @@ setup(
                  'tables>=3.5.2'],
         'http': ['aiohttp>=3.6.2', 'requests'],
         'interval': ['intervaltree>=3.0.2'],
+        'ldap': ['ldap3>=2.5'],
         'numpy': ['numpy>=1.16.4'],
         'pandas': ['pandas>=0.24.2'],
         'remote': ['fsspec>=0.7.4'],

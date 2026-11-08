@@ -4,6 +4,11 @@ Changes
 Version 1.7.32
 --------------
 
+* Add :func:`petl.io.ldap.fromldap` to extract a table from an LDAP
+  directory over a live ``ldap3`` connection, joining multi-valued
+  attributes and following the paged results control until the directory
+  reports no more pages. See :issue:`511`.
+
 * Exclude negatively selected fields from the inferred keys or variables
   in ``melt()``.
   By :user:`IlyaKhalafi`, :issue:`786`.
