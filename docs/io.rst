@@ -422,6 +422,22 @@ Google Sheets (gspread)
 .. autofunction:: petl.io.gsheet.togsheet
 .. autofunction:: petl.io.gsheet.appendgsheet
 
+.. module:: petl.io.ldap
+.. _io_ldap:
+
+LDAP directories (ldap3)
+^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note::
+
+    The following functions require `ldap3
+    <https://github.com/cannatag/ldap3>`_ to be
+    installed, e.g.::
+
+        $ pip install ldap3
+
+.. autofunction:: petl.io.ldap.fromldap
+
 .. module:: petl.io.db
 .. _io_db:
 
